@@ -83,3 +83,126 @@ footer p a:visited {
     color: #fafafa;
     text-decoration: none;
 }
+
+abbr {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.body {
+    width: 100%;
+    margin: 16px 0;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid darkblue;
+    position: relative;
+    background-color: #00008b22;
+}
+
+.body p {
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+
+.header {
+    width: 100%;
+    height: 160px;
+    border: 1px solid darkred;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #8b000022;
+}
+
+.logo {
+    width: 192px;
+    height: 96px;
+    background-color: #242424;
+    position: relative;
+}
+
+.logo p {
+    color: #fafafa;
+}
+
+.nav {
+    width: 1080px;
+    height: 96px;
+    border: 1px solid #242424;
+    position: relative;
+}
+
+.nav ul {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li {
+    width: 230px;
+    height: 32px;
+    border: 1px solid green;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    height: 384px;
+    border: 1px solid blue;
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    background-color: #0000ff22;
+}
+
+.section {
+    width: 960px;
+    height: 320px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    background-color: #ffa50022;
+}
+
+.aside {
+    width: 320px;
+    height: 320px;
+    border: 1px solid darkmagenta;
+    position: relative;
+    background-color: #8b008b22;
+}
+
+.article {
+    width: 896px;
+    height: 112px;
+    border: 1px solid rebeccapurple;
+    position: relative;
+    background-color: #66339922;
+}
+
+.footer {
+    width: 1376px;
+    height: 64px;
+    border: 1px solid black;
+    position: relative;
+    background-color: #00000022;
+}
