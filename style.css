@@ -54,6 +54,19 @@ main ul h4 {
     border-bottom: 1px solid gray;
 }
 
+main ul li a:link,
+main ul li a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+    transition: .5s;
+}
+
+main ul li a:hover {
+    color: darkred;
+    transition: .5s;
+}
+
 footer {
     width: 100%;
     margin-top: 32px;
