@@ -34,6 +34,13 @@ main {
     line-height: 1.5rem;
 }
 
+@media (max-width: 320px) {
+    main {
+        width: 100%;
+    }
+
+}
+
 main h2 {
     margin: 16px;
 }
@@ -205,4 +212,10 @@ abbr {
     border: 1px solid black;
     position: relative;
     background-color: #00000022;
+}
+
+nav {
+    width: 1440px;
+    height: 32px;
+    background-color: #fafafa;
 }
